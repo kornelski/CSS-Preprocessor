@@ -1,0 +1,14 @@
+
+@define
+{
+menu-height: 4em;
+gutter: 15px;
+sidebar-width: (200px - gutter);
+}
+
+#maincontent
+{
+padding: (menu-height) 0 0 (sidebar-width + 10px);
+}
+
+foo {bar: baz} // quz!
