@@ -12,3 +12,6 @@ padding: (menu-height) 0 0 (sidebar-width + 10px);
 }
 
 foo {bar: baz} // quz!
+
+@include "test-include.css";
+

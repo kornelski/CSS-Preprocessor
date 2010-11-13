@@ -6,7 +6,7 @@ Adds variable definitions:
     {
       variable: 100px;
     }
-  
+
 and expressions:
 
     div {

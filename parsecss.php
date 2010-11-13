@@ -92,7 +92,7 @@ class ParseCSS extends ParserToken
 		if (!file_exists($fname)) $fname = $fname1;
 
 		$f = file_get_contents($fname); if (!$f) $this->error('Unable to include file '.$fname);
-		$p = new ParseCSS(new Error());
+		$p = new ParseCSS();
 		$p->setState($this->o);
 		$s = $p->parse($f);
 		$this->errors = array_merge($this->errors,$p->getErrors());
