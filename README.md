@@ -1,5 +1,7 @@
 #An old CSS preprocessor
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/ "This project is not actively maintained")
+
 Adds variable definitions:
 
     @define
